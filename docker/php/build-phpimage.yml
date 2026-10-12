@@ -1,0 +1,6 @@
+services:
+  php:
+    image: myapp-php:1.0
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile

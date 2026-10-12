@@ -1,0 +1,27 @@
+# Composeファイル
+**/compose.yml
+**/compose.yaml
+**/build-*.yml
+**/build-*.yaml
+
+# Git
+.git
+
+# 環境変数・機密情報
+**/*.env
+**/.env.*
+
+# 依存パッケージ
+**/vendor
+**/node_modules
+
+# ログ
+**/*.log
+
+# キャッシュ
+**/.phpunit.cache
+**/bootstrap/cache/*.php
+
+# OS固有ファイル
+**/.DS_Store
+**/Thumbs.db
